@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Practica 4</title>
+        <meta name="description" content="practica 4">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1>Registre d'alumnes SMX2</h1>
+        <form action="mailto:joanv.sala@gmail.com" method="post" enctype="text/plain"> 
+            <table>
+                <tbody align="Left">
+                    <tr>
+                        <th colspan="5">Nom</th>
+                        <th colspan="5"><input type="text" placeholder="Nombre" required autofocus></th>
+                    </tr>
+                    <tr>
+                        <th colspan="5">Cognoms</th>
+                        <th colspan="5"><input type="text" placeholder="Apellidos" required></th>
+                    </tr>
+                    <tr>
+                        <th colspan="5">E-mail</th>
+                        <th colspan="5"><input type="text" placeholder="exaple@gmail.com" required></th>
+                    </tr>
+                    <tr>
+                        <th colspan="5">Data de neixament</th>
+                        <th colspan="5"><input type="date" value="1999-01-01"></th>
+                    </tr>
+                    <tr>
+                        <th colspan="5">Color preferit</th>
+                        <th colspan="5"><input type="color" value="#ff0000"></th>
+                    </tr>
+                    <tr>
+                        <th rowspan="6" colspan="5">Moduls preferits de SMX2:</th>
+                        <th colspan="5"><input type="checkbox" name="Sistema operatius" value="Sistemas operatius">M4 - Sistemas Operatius en Xarxa</th>
+                    </tr>
+                    <tr>
+                        <th colspan="5"><input type="checkbox" name="Seguretat informatica" value="Seguretat informatica">M6 - Seguretat informatica</th>
+                    </tr>
+                    <tr>
+                        <th colspan="5"><input type="checkbox" name="Serveis en xarxa" value="Serveis en xarxa">M7 - Serveis en xarxa</th>
+                    </tr>
+                    <tr>
+                        <th colspan="5"><input type="checkbox" name="Aplicacions" value="Aplicacions" checked>M8 - Aplicacions Web</th>
+                    </tr>
+                    <tr>
+                        <th colspan="5"><input type="checkbox" name="Empresa" value="Empresa">M10 - Empresa i Iniciativa Emprenedora</th>
+                    </tr>
+                    <tr>
+                        <th colspan="5"><input type="checkbox" name="Angles tecnic" value="Angles tecnic">M11 - Angles tecnic</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="5" colspan="5">Què voldries fer després d'acabar SMX?</th>
+                        <th colspan="5"><input type="radio" name="CFGS DAM" value="CFGS DAM">CFGS DAM</th>
+                    </tr>
+                    <tr>
+                        <th colspan="5"><input type="radio" name="CFGS DAW" value="CFGS DAW">CFGS DAW</th>
+                    </tr>
+                    <tr>
+                        <th colspan="5"><input type="radio" name="CFGS ASIX" value="CFGS ASIX" checked>CFGS ASIX</th>
+                    </tr>
+                    <tr>
+                        <th colspan="5"><input type="radio" name="Treballar" value="Treballar">Treballar</th>
+                    </tr>
+                    <tr>
+                        <th colspan="5"><input type="radio" name="Res" value="Res">Res</th>
+                    </tr>
+                    <tr>
+                        <th colspan="5"> Què t'està semblant el llenguatge HTML?</th>
+                        <th colspan="5">
+                            <select name="Opinions" >
+                                <option value="5">M'ha agradat molt</option>
+                                <option value="4">M'ha agradat</option>
+                                <option value="3">Ni fu ni fa</option>
+                                <option value="2">No m'ha agradat gaire</option>
+                                <option value="1">No m'ha agradat gens</option>
+                            </select>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th colspan="5">Nota que esperes d'aquesta entrega:</th>
+                        <th colspan="5"><input type="number" min="0" max="10" placeholder="5"></th>
+                    </tr>
+                    <tr>
+                        <th colspan="5">Escriu un password per xifrar la entrega</th>
+                        <th colspan="5"><input type="password" placeholder="ecriu un pass"></th>
+                    </tr>
+                    <tr>
+                        <th colspan="10"><input type="submit" value="enviar informacio"> <input type="reset" value="restablecer"></th>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>
